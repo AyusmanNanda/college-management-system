@@ -4,7 +4,7 @@
 
 <h1 align="center">Axiom</h1>
 <p align="center"><i>College Management System</i></p>
-<p align="center"><sub>The Government College of Engineering, Keonjhar logo/crest is the copyright of GCE Keonjhar and is used here for attribution only, see <a href="./LICENSE">LICENSE</a>.</sub></p>
+<p align="center"><sub>The Government College of Engineering, Keonjhar name and logo/crest are trademarks of GCE Keonjhar, used here for attribution only, not covered by this project's license, see <a href="./LICENSE">LICENSE</a>.</sub></p>
 
 <p align="center">
   <a href="https://github.com/AyusmanNanda/College_Management_system/actions/workflows/build.yml">
@@ -34,13 +34,13 @@
   <a href="#team">Team</a>
 </p>
 
-> This started as a 6th-semester B.Tech project built for Government College of Engineering, Keonjhar. It's since grown past the original coursework scope and is now maintained as an ongoing side project.
+> Built as a 6th-semester B.Tech project for Government College of Engineering, Keonjhar. It's finished and not under active development, though we've made a few infrastructure updates since (e.g. migrating the database to PostgreSQL) to keep it running.
 
 ---
 
 ## Overview
 
-Most colleges I've seen still run attendance and marks through paper registers and spreadsheets passed around over email. Axiom tries to replace that with a single system that Admins, Faculty, and Students all log into, each seeing only what's relevant to their role.
+Most colleges we've seen still run attendance and marks through paper registers and spreadsheets passed around over email. Axiom tries to replace that with a single system that Admins, Faculty, and Students all log into, each seeing only what's relevant to their role.
 
 It supports three roles today (Admin, Faculty, and Student), with role-based access enforced on every API route, not just hidden in the UI. On top of the core attendance/marks/course-management flow, it also generates cryptographically verifiable marksheets: each one carries a SHA-256 hash of the underlying data and a QR code that links to a public verification page, so a printed marksheet can be checked for tampering.
 
