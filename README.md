@@ -34,7 +34,7 @@
   <a href="#team">Team</a>
 </p>
 
-> Built as a 6th-semester B.Tech project for Government College of Engineering, Keonjhar. It's finished and not under active development, though we've made a few infrastructure updates since (e.g. migrating the database to PostgreSQL) to keep it running.
+> Built as a 6th-semester B.Tech project for Government College of Engineering, Keonjhar. It's finished and not under active feature development, though we check in occasionally to merge Dependabot updates and review issues.
 
 ---
 
@@ -240,13 +240,13 @@ npm run electron
 - Built and tested against a single college's course/semester structure, assumptions about the academic calendar are baked in rather than fully configurable
 - No automated test suite, changes were verified manually
 - Currently supports three roles (Admin, Faculty, Student) only
-- This project is not actively maintained; issues and PRs may not get a response
+- This project is not under active feature development; issues and PRs may take a while to get a response
 
 ---
 
 ## Contributing
 
-This repo is shared as-is and isn't under active development, so response times on issues or PRs will be slow to none. Feel free to fork it if you want to take it further.
+This repo isn't under active feature development, so response times on issues or PRs will be slow. Feel free to fork it if you want to take it further.
 
 ---
 
