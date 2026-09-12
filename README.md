@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/gcekjr.jpg" width="72" style="border-radius: 50%;" alt="GCE Keonjhar logo" />
+  <img src="screenshots/gcekjr.png" width="72" style="border-radius: 50%;" alt="GCE Keonjhar logo" />
 </p>
 
 <h1 align="center">Axiom</h1>
