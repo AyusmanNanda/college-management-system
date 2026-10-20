@@ -27,7 +27,7 @@
     "dist:win": "ELECTRON=true vite build && electron-builder --win"
   },
   "dependencies": {
-    "@capacitor/android": "^8.2.0",
+    "@capacitor/android": "^8.4.3",
     "@capacitor/app": "^8.0.1",
     "@capacitor/browser": "^8.0.2",
     "@capacitor/cli": "^8.2.0",
@@ -36,7 +36,7 @@
     "@capacitor/network": "^8.0.1",
     "@capacitor/status-bar": "^8.0.1",
     "@react-oauth/google": "^0.13.4",
-    "axios": "^1.18.1",
+    "axios": "^1.20.0",
     "dotenv": "^17.3.1",
     "html2canvas": "^1.4.1",
     "jspdf": "^4.2.1",
@@ -57,8 +57,8 @@
     "@vitejs/plugin-basic-ssl": "^2.1.4",
     "@vitejs/plugin-react": "^5.1.1",
     "autoprefixer": "^10.4.24",
-    "concurrently": "^9.2.4",
-    "electron": "^41.10.3",
+    "concurrently": "^9.2.5",
+    "electron": "^41.10.6",
     "electron-builder": "^26.15.3",
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
